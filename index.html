@@ -1,62 +1,78 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta name="viewport" content="with=device-width, initial-scale=1.0">
-    <title>Cyborg</title>
-    <link rel="stylesheet" href="home.css">
-</head>
+    <head>
+        <meta charset="utf-8"> <!--not sure, might be <meta.charset>-->
+        <meta name="viewpoint" content="width=device-width, initial-sale=1">
+        <title>Programing Languages</title>
 
-<body>
-<div class="navbar">
-    <img src="img/logo.png">
-    <a href="index.html">Cyborg</a>
-</div>
+        <!--custom CSS link-->
+        <link rel="stylesheet" type="text/css" href="style.css">
 
-<div class="header">
-    <div class="header_text">
-    <h1>Begin your journey now.</h1>
-    <a href="#jump">START</a>
-    </div>
-</div>
+        <!--boxicons link-->
+        <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
-<h1 id="jump">
-    <br>choose your first language</h1>
+        <!--remixicons link-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 
-<div class="choose">
-    <div class="box first">
-        <img src="img/JavaScript.png">
-        <h1>JavaScript</h1>
-        <h2>Top choice for web developer</h2>
-        <p>the dynamic heart of the web, empowers developers to breathe life into websites and web applications with its incredible versatility.  
-            Dive into the world of JavaScript, where the possibilities are limited only by your imagination, and discover the key to building dynamic, engaging, and responsive digital experiences.</p>
-        <a href="#">GO</a>
-    </div>
-    <div class="box second">
-        <img src="img/python.png">
-        <h1>Python</h1>
-        <h2>Beginner's most favourite</h2>
-        <p>From web development and data science to artificial intelligence and automation, Python's versatility knows no bounds. 
-            Join the thriving Python community and embark on a journey where creativity knows no limits, and your code can shape the future.</p>
-        <a href="/python page/python.html">GO</a>
-    </div>
-    <div class="box third">
-        <img src="img/C++.png">
-        <h1>C++</h1>
-        <h2>The Efficient Powerhouse.</h2>
-        <p>Its rich standard library, support for object-oriented programming, and compatibility with C code make it a top choice for seasoned developers. 
-            Step into the realm of C++, where your code becomes a symphony of efficiency and your projects reach new heights of excellence.</p>
-        <a href="/C++ page/C++.html">GO</a>
-    </div>
-</div>
-<footer>
-    <div class="footer">
-        <img src="img/CSharp.png">
-        <img src="img/Java.png">
-        <img src="img/JavaScript.png">
-        <img src="img/PHP.png">
-        <img src="img/python.png">
-        <img src="img/C++.png">
-    </div>
-</footer>
-</body>
+        <!--google fonts link-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Julius+Sans+One&display=swap" rel="stylesheet">
+
+
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">CYBORG</a> <!--  Add link one each QUESTION!Is it relevant with our project, which is programming? Will it get deducted if it is not-->
+            
+            <ul class="navlist"> 
+                <li><a href="#">Home</a></li> 
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contacts</a></li>
+
+            </ul>
+
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </header>
+
+        <section class="hero">
+            <div class="hero-text">
+                <h5>Learn how to Code!</h5>
+                <h4>Make Games and Hack people</h4>
+                <h1>Start </h1> <!--Change font and word-->
+                <p>Coding is a fun adventure where you learn computer language, create games, solve puzzles, and make new friends. Ready to start? 🚀💻🎮</p>
+                <a href="#"><strong>Download</strong></a>
+                <a href="#" class="ctaa"><i class="ri-play-fill"></i><strong>Watch Examples</strong></a> 
+                
+
+            </div>
+
+            <div class="hero-img"> <!---Change img with a better quality one-->
+                <img src="Coding.jpg.png">
+            </div>
+
+        </section>
+
+        <div class="icons">
+            <a href="#"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-youtube-line"></i></a>
+            <a href="#"><i class="ri-discord-line"></i></a>
+            <a href="#"><i class="ri-github-fill"></i></a>
+        </div>
+
+        <div class="scroll-down">
+            <a href="#"><i class="ri-more-fill"></i></a>
+        </div>
+
+        <!--scrollreveal-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        
+
+        <!--custom js link-->
+        <script src="script.js"></script>
+        
+
+
+    </body>
 </html>
