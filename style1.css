@@ -1,0 +1,103 @@
+body {
+    margin-top: 0px;
+}
+
+header {
+    background-color: #5E97D0;
+    border-bottom: 1px solid #5E97D0;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+
+ul {
+    text-align: center;
+    margin: 30px auto;
+    padding: 0px 20px;
+}
+
+li {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 400px;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 200px;
+    text-decoration: underline;
+}
+
+.logo-image {
+    float: left;
+    padding-top: 100px;
+    padding-left: 10px;
+}
+
+.name {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #044F88;
+    float: left;
+    font-size: 100px;
+    padding-left: 50px;
+    padding-top: 150px;
+}
+
+.introduction {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    position: relative;
+    padding: 50px 15px 15px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#pros-and-cons, .example, .use {
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    padding: 0px 15px;
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+}
+
+h2 {
+    padding-top: 50px;
+}
+
+h3 {
+    padding-top: 20px;
+}
+
+.tutorial {
+    float: left;
+    padding-left: 15px;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.button {
+    border: 1px solid white;
+    padding: 40px 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    float: right;
+}
+
+.button a{
+    background: #5E97D0;
+    border: 1px solid #5E97D0;
+    display: inline-block;
+    margin: 10px;
+    padding: 15px;
+}
+
+.button a:hover {
+    background: white;
+    border: 1px solid #5E97D0;
+    color: #5E97D0;
+}
