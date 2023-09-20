@@ -2,12 +2,12 @@
 
 body{
     font-family: 'Palanquin Dark';
-    background-color: #dadada;
+    background-color: rgb(39, 42, 49);;
 }
 
 .navbar{
     color: rgb(198, 198, 199);
-    background-color: #007BFF;
+    background-color: #4d5761;
     position: fixed;
     width: 100%;
     z-index: 10;
@@ -35,14 +35,14 @@ h1{
 }
 .python{
     padding: 20px;
-    color:#0056B3;
+    color:#bbdbfe;
     display: flex;
 }
 
 img[src*='python.png']{
     width: 100px;
     height: 100px;
-    background-color: white;
+    background-color: rgb(242, 242, 242);
     padding: 15px 10px 10px 15px;
     border-radius: 30%;
     margin: 80px 50px 50px 50px;
@@ -51,7 +51,7 @@ img[src*='python.png']{
 .python p{
     width: 1000px;
     text-align: justify;
-    background-color: #d3d3d3;
+    background-color: #315881;
     padding: 20px;
     border-radius: 10px;
 }
@@ -95,4 +95,3 @@ h3{
     letter-spacing: 2px;
     font-size: 30px;
 }
-
