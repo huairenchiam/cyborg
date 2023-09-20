@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Julius+Sans+One&display=swap');
 
 *{
     scroll-behavior: smooth;
@@ -7,15 +7,16 @@
 }
 
 body{
-    font-family: 'Palanquin Dark';
-    background-color: #dadada;
+    font-family: 'IBM Plex Mono', monospace;
+    line-height: 1.5;
+    background-color: rgb(39, 42, 49);
     margin: 0;
     padding: 0;
 }
 
 .navbar{
     color: rgb(198, 198, 199);
-    background-color: #007BFF;
+    background-color: rgb(39, 42, 49);
     position: fixed;
     width: 100%;
     z-index: 10;
@@ -30,7 +31,7 @@ body{
 }
 
 .navbar a{
-    font-family: 'Palanquin Dark';
+    font-family: 'IBM Plex Mono', monospace;
     padding-bottom: 10px;
     display: inline-block;
     margin: 0 auto;
@@ -49,7 +50,7 @@ body{
 }
 
 .header_text{
-    font-family: 'Palanquin Dark';
+    font-family: 'Julius Sans One', sans-serif;
     width: 98%;
     position: absolute;
     top: 50%;
@@ -89,7 +90,7 @@ body{
     letter-spacing: 2px;
     text-decoration: underline;
     text-underline-offset: 10px;
-    color: #0056B3;
+    color: #ffffff;
 }
 
 .choose{
@@ -99,7 +100,7 @@ body{
 
 .box{
     background-color: #FFFFFF;
-    margin: 30px 10px 200px 10px;
+    margin: 30px 10px 40px 10px;
     border-radius: 5px;
     width: 400px;
     height: 1000px;
@@ -157,13 +158,46 @@ body{
     font-size: 20px;
     margin: 20px;
     padding: 20px;
-    text-align: justify;
+    text-align: center;
     border-radius: 10px;
     color: #4DA8DA;
 }
 
+.next{
+    font-family: 'Julius Sans One', sans-serif;
+    width: 98%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.next p{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.next a{
+    padding: 15px 30px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #007BFF;
+    background-color:  rgba(255, 255, 255, 0.185);
+    border: 1px solid #007BFF;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
 .footer{
-    background-color: #003772;
+    background-color: #4d5761;
+    margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
 }
